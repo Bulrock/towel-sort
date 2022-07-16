@@ -4,7 +4,7 @@ module.exports = function towelSort (matrix) {
         arrSorted = [];
         return arrSorted;
     };
-    for (let i = 0; i < matrix.length; i++){git
+    for (let i = 0; i < matrix.length; i++){
         if ((i === 0) || (i % 2 === 0)){
             for (let j = 0; j < matrix[i].length; j++){
                 arrSorted.push(matrix[i][j])}
